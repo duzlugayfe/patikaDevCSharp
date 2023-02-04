@@ -7,10 +7,9 @@ namespace algoritma1Patika
         public static void Main(string[] args)
         {
             Odevler od = new Odevler();
-            //od.firstHomeWork(); //Cift olanlar yazilir.
-            //od.secondHomework(); // M'e esit ya da tam bolunenler
-            //od.thirdHomework(); // Tersini sıralar.
-            od.FourthHomework();  // Toplam harf ve kelime sayısı.
+            od.firstHomeWork();
+            od.thirdHomework();
+            od.FourthHomework();
         }
     }
 
@@ -40,6 +39,7 @@ namespace algoritma1Patika
                     System.Console.WriteLine(item);
                 }
             }
+            secondHomework();
         }
 
         public void secondHomework()
@@ -70,6 +70,7 @@ namespace algoritma1Patika
                     System.Console.WriteLine(item);
                 }
             }
+            thirdHomework();
         }
 
         public void thirdHomework()
@@ -94,7 +95,7 @@ namespace algoritma1Patika
             {
                 System.Console.WriteLine(item);
             }
-
+            FourthHomework();
 
         }
 
